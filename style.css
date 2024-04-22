@@ -50,7 +50,7 @@ input {
     cursor: pointer;
     font-size: 12px;
 }
-.submit, .submit1 {
+.submit{
     margin-top: 10px;
     width: 17.5vw;
     height: 5vh;
@@ -116,9 +116,6 @@ input {
     .submit{
         width: 81.5dvw;
         margin-top: 10px;
-    }
-    .submit1{
-        width: 30dvw;
     }
     .new-image{
         display: none;
