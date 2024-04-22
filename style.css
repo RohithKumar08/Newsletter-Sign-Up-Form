@@ -1,0 +1,133 @@
+body {
+    background-color: hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 47vw; 
+    height: 70vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.validate {
+    width: 17.5vw;
+    height: 60vh;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+h1, h6{
+    color: hsl(234, 29%, 20%);
+}
+.error-msg{
+    float: inline-end;
+    display: none;
+    color: hsl(4, 100%, 67%);
+    font-size: 10px;
+}
+.text {
+    color: hsl(234, 29%, 20%);
+    font-size: 10px;
+}
+input {
+    color: hsl(234, 29%, 20%);
+    font-family: 'Roboto';
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 3px;
+    width: 17vw;
+    height: 4.5vh;
+    cursor: pointer;
+    font-size: 12px;
+}
+.submit {
+    margin-top: 10px;
+    width: 17.5vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 10px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.submit:focus{
+    background-color: hsl(4, 100%, 67%);
+}
+.new-image {
+    margin-left: auto;
+    width: 300px;
+    height: 400px;
+} 
+.alert{
+    opacity: 0;
+    background-color: hsl(0, 0%, 100%);
+    width: 25vw; 
+    height: 50vh;
+    border-radius: 25px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.alert-msg{
+    margin-top: 20px;
+    margin-left: 45px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        justify-content: center;
+        padding: 20px;
+    }
+    .container{
+        display: flex;
+        width: 85%;
+        height: auto;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .validate{
+        width: 90%;
+        margin: 0;
+    }
+    input{
+        width: 98%;
+        margin: 0;
+    }
+    .submit{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .new-image{
+        display: none;
+    }
+    .alert{
+        width: 70%;
+        height: auto;
+        position: absolute; 
+        top: 200px; 
+        left: 200px; 
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 10px;
+        padding: 20px;
+    }
+}
+  
