@@ -50,7 +50,7 @@ input {
     cursor: pointer;
     font-size: 12px;
 }
-.submit {
+.submit, .submit1 {
     margin-top: 10px;
     width: 17.5vw;
     height: 5vh;
@@ -99,28 +99,28 @@ input {
     }
     .container{
         display: flex;
-        width: 85%;
+        width: 85dvw;
         height: auto;
         margin: auto;
         border-radius: 10px;
     }
     .validate{
-        width: 90%;
+        width: 80dvw;
         margin: 0;
     }
     input{
-        width: 98%;
+        width: 80dvw;
         margin: 0;
     }
-    .submit{
-        width: 100%;
+    .submit, .submit1{
+        width: 81dvw;
         margin-top: 10px;
     }
     .new-image{
         display: none;
     }
     .alert{
-        width: 70%;
+        width: 70dvw;
         height: auto;
         position: absolute; 
         top: 200px; 
