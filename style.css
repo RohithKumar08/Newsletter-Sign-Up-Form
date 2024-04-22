@@ -94,6 +94,7 @@ input {
 
 @media only screen and (max-width: 600px){
     body{
+        height: 100vh;
         justify-content: center;
         padding: 20px;
     }
@@ -112,9 +113,12 @@ input {
         width: 80dvw;
         margin: 0;
     }
-    .submit, .submit1{
-        width: 81dvw;
+    .submit{
+        width: 81.5dvw;
         margin-top: 10px;
+    }
+    .submit1{
+        width: 50dvw;
     }
     .new-image{
         display: none;
